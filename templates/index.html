@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Image Search</h1>
+    <form action="{{ url_for('index') }}" method="post" id="search-form">
+        <div class="search-container">
+            <input type="text" name="content" id="search-input" placeholder="Search query" required>
+            <button type="submit" id="search-button">Search</button>
+        </div>
+        <div id="search-feedback"></div>
+        <br><br>
+        <p>Explore the World through Images.<br>Embark on a visual journey with our intuitive web app.</p>
+    </form>
+{% endblock %}

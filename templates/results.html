@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Image Search Results</h1>
+    <div class="image-container">
+        {% for item in img_data %}
+            <div class="image-item">
+                <img src="data:images/jpg;base64,{{ item.Image|custom_b64encode }}" alt="Image {{ item.Index }}">
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

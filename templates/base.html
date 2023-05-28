@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>🎉 iQuery-Image Search App</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <ul>
+                <li><a href="{{ url_for('homepage') }}"><i class="fas fa-home"></i></a></li>
+            </ul>
+        </nav>
+        <div class="container content">
+            {% block content %}{% endblock %}
+        </div>
+        <footer>
+            <p>&copy; 2023 Image Scrapper. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
