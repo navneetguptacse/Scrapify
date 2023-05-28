@@ -33,7 +33,7 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## License
 
-This project is licensed under the [https://ineuron.ai/](iNeuron.ai).
+This project is licensed under the [iNeuron.ai](https://ineuron.ai/).
 
 ## Acknowledgements
 
